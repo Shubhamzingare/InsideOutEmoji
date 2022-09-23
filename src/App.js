@@ -17,7 +17,18 @@ var emojiLibrary = {
   "❤️": "Red Heart",
   "✨": "Sparkles",
   "🚴": "Person Biking",
-  "🎌": "Flags"
+  "🎌": "Flags",
+  "😀": "grinning face",
+  "😅": "grinning face with sweat",
+  "😇": "smiling face with halo",
+  "🥰": "smiling face with hearts",
+  "😵‍💫": "face with spiral eyes",
+  "🥳": "partying face",
+  "😎": "smiling face with sunglasses",
+  "🤓": "nerd face",
+  "😽": "kissing cat",
+  "💯": "hundred points",
+  "💢": "anger symbol"
 };
 
 var emojiKnown = Object.keys(emojiLibrary);
