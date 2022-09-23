@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Gotu&family=Nunito&display=swap");
-* {
-  background-color: #fff1f2;
+body {
+  background: radial-gradient(
+      ellipse farthest-side at 76% 77%,
+      rgba(245, 228, 212, 0.25) 4%,
+      rgba(255, 255, 255, 0) calc(4% + 1px)
+    ),
+    linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);
   font-family: "Nunito", sans-serif;
 }
 .App {
