@@ -2,15 +2,21 @@ import React, { useState } from "react";
 import "./styles.css";
 
 var emojiLibrary = {
+  "😎": "smiling face with sunglasses",
+  "🤓": "nerd face",
   "😊": "Smiling Face",
   "🤣": "Rolling on the Floor Laughing",
   "😉": "Winking Face",
   "🙃": "Upside-Down Face",
   "🦍": "Gorilla",
+  "😽": "kissing cat",
+  "💯": "hundred points",
   "🐯": "Tiger Face",
   "🦄": "Unicorn",
   "🐼": "Panda Face",
   "🍍": "Pineapple",
+  "🥳": "partying face",
+  "💢": "anger symbol",
   "🍏": "Green Apple",
   "🍅": "Tomato",
   "🍄": "Mushroom",
@@ -22,13 +28,7 @@ var emojiLibrary = {
   "😅": "grinning face with sweat",
   "😇": "smiling face with halo",
   "🥰": "smiling face with hearts",
-  "😵‍💫": "face with spiral eyes",
-  "🥳": "partying face",
-  "😎": "smiling face with sunglasses",
-  "🤓": "nerd face",
-  "😽": "kissing cat",
-  "💯": "hundred points",
-  "💢": "anger symbol"
+  "😵‍💫": "face with spiral eyes"
 };
 
 var emojiKnown = Object.keys(emojiLibrary);
